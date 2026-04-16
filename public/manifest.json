@@ -1,0 +1,9 @@
+{
+  "name": "NPTEL Affective Computing Prep",
+  "short_name": "AC Prep",
+  "description": "Cram-night study tool for NPTEL Affective Computing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#6366f1"
+}

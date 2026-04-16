@@ -14,6 +14,7 @@ export interface Question {
   explanation: string;
   difficulty: "easy" | "medium" | "hard";
   tags: string[];
+  notesRef?: string; // heading from notes.ts sections[] to link to lecture context
 }
 
 export interface WeekStudyContent {
@@ -23,7 +24,6 @@ export interface WeekStudyContent {
   keyConcepts: string[];
   importantTerms: Record<string, string>;
   commonConfusions: string[];
-  linkedQuestionIds: string[];
 }
 
 export interface QuizAttempt {
@@ -31,6 +31,7 @@ export interface QuizAttempt {
   selectedAnswer: string | null;
   isCorrect: boolean;
   timeSpentMs: number;
+  confidence?: "guess" | "somewhat" | "sure";
 }
 
 export interface QuizSession {

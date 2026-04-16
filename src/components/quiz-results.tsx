@@ -7,9 +7,11 @@ import {
   Trophy,
   RotateCcw,
   Home,
-  ArrowRight,
+  BookOpen,
 } from "lucide-react";
 import type { QuizSession, Question } from "@/lib/types";
+import { getNotesLink } from "@/lib/notes-link";
+import { QuizRewardCelebration } from "@/components/quiz-reward-celebration";
 
 interface QuizResultsProps {
   session: QuizSession;
@@ -35,6 +37,13 @@ export function QuizResults({
 
   const grade = getGrade();
   const missed = session.attempts.filter((a) => !a.isCorrect);
+  const hasConfidenceData = session.attempts.some((a) => a.confidence != null);
+  const overconfidentMisses = session.attempts.filter(
+    (a) => a.confidence === "sure" && !a.isCorrect
+  ).length;
+  const luckyGuesses = session.attempts.filter(
+    (a) => a.confidence === "guess" && a.isCorrect
+  ).length;
   const topicBreakdown = new Map<string, { correct: number; total: number }>();
 
   for (const attempt of session.attempts) {
@@ -48,6 +57,8 @@ export function QuizResults({
 
   return (
     <div className="mx-auto max-w-2xl">
+      <QuizRewardCelebration />
+
       {/* Score card */}
       <div className="mb-8 rounded-2xl border border-border bg-card p-8 text-center">
         <Trophy className="mx-auto mb-3 h-10 w-10 text-warning" />
@@ -60,6 +71,17 @@ export function QuizResults({
           {session.mode} mode
           {session.week !== null && ` — Week ${session.week}`}
         </p>
+        {hasConfidenceData && (
+          <div className="mt-5 space-y-1.5 rounded-xl border border-border bg-muted/30 px-4 py-3 text-left text-sm text-card-foreground">
+            <p className="font-semibold text-card-foreground">Confidence check</p>
+            <p className={overconfidentMisses > 0 ? "text-error" : "text-muted-foreground"}>
+              Overconfident misses: {overconfidentMisses}
+            </p>
+            <p className={luckyGuesses > 0 ? "text-warning" : "text-muted-foreground"}>
+              Lucky guesses: {luckyGuesses}
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Topic breakdown */}
@@ -120,6 +142,15 @@ export function QuizResults({
                   <p className="mt-2 rounded-lg bg-muted p-3 text-xs text-muted-foreground">
                     {q.explanation}
                   </p>
+                  {q.notesRef && (
+                    <Link
+                      href={getNotesLink(q.week, q.notesRef)}
+                      className="mt-2 inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-2.5 py-1.5 text-xs font-medium text-primary transition-colors hover:bg-primary/20"
+                    >
+                      <BookOpen className="h-3 w-3" />
+                      Week {q.week}: {q.notesRef}
+                    </Link>
+                  )}
                 </div>
               );
             })}

@@ -1,17 +1,19 @@
 "use client";
 
-import { useState, useCallback, Suspense } from "react";
+import { useState, useCallback, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { questions as allQuestions } from "@/data/questions";
+import { questions2025 } from "@/data/questions-2025";
 import { weeks } from "@/data/weeks";
 import {
   getQuestionsForWeek,
   getQuestionsById,
   shuffleArray,
+  shuffleQuestionOptions,
 } from "@/lib/quiz";
-import { getMissedQuestionIds } from "@/lib/progress";
+import { getMissedQuestionIds, getRecentWeakQuestionIds } from "@/lib/progress";
 import { QuizEngine } from "@/components/quiz-engine";
 import { QuizResults } from "@/components/quiz-results";
 import type { Question, QuizSession } from "@/lib/types";
@@ -19,15 +21,34 @@ import type { Question, QuizSession } from "@/lib/types";
 function QuizContent() {
   const searchParams = useSearchParams();
   const weekParam = searchParams.get("week");
+  const yearParam = searchParams.get("year");
   const modeParam = searchParams.get("mode") ?? "practice";
+  const questionBank = yearParam === "2025" ? questions2025 : allQuestions;
 
+  const autoStart = weekParam || modeParam === "review";
   const [phase, setPhase] = useState<"select" | "playing" | "results">(
-    weekParam ? "playing" : "select"
+    autoStart ? "playing" : "select"
   );
   const [activeQuestions, setActiveQuestions] = useState<Question[]>(() => {
+    if (modeParam === "review" && !weekParam) {
+      const weakIds = getRecentWeakQuestionIds(questionBank);
+      const missedIds = getMissedQuestionIds().filter((id) =>
+        questionBank.some((q) => q.id === id)
+      );
+      const idSet = new Set([...weakIds, ...missedIds]);
+      const qs = questionBank.filter((q) => idSet.has(q.id));
+      return shuffleArray(qs).map((q) => shuffleQuestionOptions(q, Date.now()));
+    }
     if (weekParam) {
       const weekNum = parseInt(weekParam, 10);
-      return shuffleArray(getQuestionsForWeek(allQuestions, weekNum));
+      const bank =
+        typeof window !== "undefined" &&
+        new URLSearchParams(window.location.search).get("year") === "2025"
+          ? questions2025
+          : allQuestions;
+      return shuffleArray(getQuestionsForWeek(bank, weekNum)).map((q) =>
+        shuffleQuestionOptions(q, Date.now())
+      );
     }
     return [];
   });
@@ -43,22 +64,27 @@ function QuizContent() {
     (weekNum: number | null, mode: "practice" | "review") => {
       let qs: Question[];
       if (mode === "review") {
-        const missed = getMissedQuestionIds();
-        qs = getQuestionsById(allQuestions, missed);
+        const weakIds = getRecentWeakQuestionIds(questionBank);
+        const missedIds = getMissedQuestionIds().filter((id) =>
+          questionBank.some((q) => q.id === id)
+        );
+        const idSet = new Set([...weakIds, ...missedIds]);
+        qs = questionBank.filter((q) => idSet.has(q.id));
         if (weekNum !== null) qs = qs.filter((q) => q.week === weekNum);
       } else if (weekNum !== null) {
-        qs = getQuestionsForWeek(allQuestions, weekNum);
+        qs = getQuestionsForWeek(questionBank, weekNum);
       } else {
-        qs = [...allQuestions];
+        qs = [...questionBank];
       }
-      qs = shuffleArray(qs);
+      const salt = Date.now();
+      qs = shuffleArray(qs).map((q) => shuffleQuestionOptions(q, salt));
       setActiveQuestions(qs);
       setActiveWeek(weekNum);
       setActiveMode(mode);
       setPhase("playing");
       setSession(null);
     },
-    []
+    [questionBank]
   );
 
   const handleComplete = useCallback((s: QuizSession) => {
@@ -71,18 +97,23 @@ function QuizContent() {
     const missedIds = session.attempts
       .filter((a) => !a.isCorrect)
       .map((a) => a.questionId);
-    const qs = shuffleArray(getQuestionsById(allQuestions, missedIds));
+    const salt = Date.now();
+    const qs = shuffleArray(getQuestionsById(questionBank, missedIds)).map(
+      (q) => shuffleQuestionOptions(q, salt)
+    );
     setActiveQuestions(qs);
     setPhase("playing");
     setSession(null);
-  }, [session]);
+  }, [session, questionBank]);
 
   const handleRetryAll = useCallback(() => {
     startQuiz(activeWeek, activeMode);
   }, [startQuiz, activeWeek, activeMode]);
 
   if (phase === "select") {
-    return <QuizSelector onStart={startQuiz} />;
+    return (
+      <QuizSelector questionBank={questionBank} yearParam={yearParam} onStart={startQuiz} />
+    );
   }
 
   if (phase === "results" && session) {
@@ -90,7 +121,7 @@ function QuizContent() {
       <div className="mx-auto max-w-2xl px-4 py-8">
         <QuizResults
           session={session}
-          questions={allQuestions}
+          questions={activeQuestions}
           onRetryMissed={handleRetryMissed}
           onRetryAll={handleRetryAll}
         />
@@ -136,11 +167,22 @@ function QuizContent() {
 }
 
 function QuizSelector({
+  questionBank,
+  yearParam,
   onStart,
 }: {
+  questionBank: Question[];
+  yearParam: string | null;
   onStart: (week: number | null, mode: "practice" | "review") => void;
 }) {
-  const missedCount = getMissedQuestionIds().length;
+  const [missedCount, setMissedCount] = useState(0);
+
+  useEffect(() => {
+    const missed = getMissedQuestionIds().filter((id) =>
+      questionBank.some((q) => q.id === id)
+    );
+    setMissedCount(missed.length);
+  }, [questionBank]);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
@@ -152,7 +194,9 @@ function QuizSelector({
       </Link>
       <h1 className="mb-2 text-2xl font-bold">Practice Quiz</h1>
       <p className="mb-8 text-muted-foreground">
-        Choose a week to practice or review your missed questions.
+        {yearParam === "2025"
+          ? "2025 NPTEL session assignment bank (Jan 2025 export)."
+          : "Choose a week to practice or review your missed questions."}
       </p>
 
       {missedCount > 0 && (
@@ -162,7 +206,7 @@ function QuizSelector({
         >
           <p className="font-semibold text-error">Review Missed Questions</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            {missedCount} questions you got wrong across all weeks
+            {missedCount} questions you got wrong in this question bank
           </p>
         </button>
       )}
@@ -173,7 +217,7 @@ function QuizSelector({
       >
         <p className="font-semibold text-accent">All Questions</p>
         <p className="mt-1 text-sm text-muted-foreground">
-          Practice all {allQuestions.length} questions across all weeks
+          Practice all {questionBank.length} questions in this bank
         </p>
       </button>
 
@@ -181,26 +225,30 @@ function QuizSelector({
         By Week
       </h2>
       <div className="grid gap-3 sm:grid-cols-2">
-        {weeks.map((w) => {
-          const count = allQuestions.filter((q) => q.week === w.week).length;
-          return (
-            <button
-              key={w.week}
-              onClick={() => onStart(w.week, "practice")}
-              className="rounded-xl border border-border bg-card p-4 text-left transition-colors hover:border-primary/40"
-            >
-              <div className="flex items-center gap-3">
-                <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10 text-sm font-bold text-primary">
-                  {w.week}
-                </span>
-                <div>
-                  <p className="text-sm font-medium">{w.title}</p>
-                  <p className="text-xs text-muted-foreground">{count} questions</p>
+        {weeks
+          .filter((w) => questionBank.some((q) => q.week === w.week))
+          .map((w) => {
+            const count = questionBank.filter((q) => q.week === w.week).length;
+            return (
+              <button
+                key={w.week}
+                onClick={() => onStart(w.week, "practice")}
+                className="rounded-xl border border-border bg-card p-4 text-left transition-colors hover:border-primary/40"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10 text-sm font-bold text-primary">
+                    {w.week}
+                  </span>
+                  <div>
+                    <p className="text-sm font-medium">{w.title}</p>
+                    <p className="text-xs text-muted-foreground">
+                      {count} questions
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </button>
-          );
-        })}
+              </button>
+            );
+          })}
       </div>
     </div>
   );

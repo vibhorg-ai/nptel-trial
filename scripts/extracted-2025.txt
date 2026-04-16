@@ -1,0 +1,2214 @@
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Lecture 1:
+Fundamentals
+of Affective
+computing
+(unit?
+unit=16&lesson
+=42)
+1) 	1 point
+2) 	1 point
+3) 	1 point
+Week 1: Assignment 1
+The due date for submitting this assignment has passed.
+Due on 2025-02-05, 23:59 IST.
+Assignment submitted on 2025-02-05, 22:36 IST
+Affective computing focuses solely on the recognition of emotions without any attempt
+to synthesize or simulate emotional expressions.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+Which of the following data modalities is least likely to be used for emotion recognition?
+Heart Rate Variability (HRV)
+Speech Intonation
+Weather Patterns
+Facial Expressions
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Weather Patterns
+Thermal cameras can be effective for affect sensing because:
+
+-- 1 of 41 --
+
+Week 2 ()
+Week 3 ()
+Week 4 ()
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Lecture 2:
+Fundamentals
+of Affective
+computing
+Applications
+(unit?
+unit=16&lesson
+=43)
+Week 1
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=16&lesson
+=29)
+Quiz: Week 1:
+Assignment 1
+(assessment?
+name=115)
+Week 1 :
+Lecture
+Materials (unit?
+unit=16&lesson
+=131)
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+They capture changes in heat patterns associated with emotional states
+They have high resolution for RGB-based emotion analysis.
+They are designed for real-time object tracking.
+They directly measure neural activity.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+They capture changes in heat patterns associated with emotional states
+Analyzing multiple data streams simultaneously (e.g., combining facial expressions,
+voice tone, and physiological signals) improves the accuracy of emotion recognition systems.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+Wearable devices like smartwatches can assist in affect sensing by:
+Detecting changes in motion and location.
+Tracking physiological metrics like heart rate and skin conductivity
+Providing augmented reality overlays
+Capturing high-resolution facial expressions.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Tracking physiological metrics like heart rate and skin conductivity
+Which of the following sensors is commonly used for detecting physiological signals
+related to emotions?
+Gyroscope
+Galvanic Skin Response (GSR)
+Ultrasonic Sensor
+Barcode Reader
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Galvanic Skin Response (GSR)
+Which of the following is an ethical concern in affective computing?
+High computational cost
+Misinterpretation of emotional data
+
+-- 2 of 41 --
+
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Limited bandwidth for sensor data transfer
+Lack of compatibility with legacy hardware
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Misinterpretation of emotional data
+What is the primary purpose of the MACH system?
+To analyze environmental data
+To provide analytics on user communication behaviors
+To monitor physical health
+To replace human recruiters in interviews
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To provide analytics on user communication behaviors
+What ethical concern might arise with the use of systems like MACH ?
+Over-reliance on hardware performance
+Privacy concerns regarding facial data collection
+Limited availability in rural areas
+High training cost for users
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Privacy concerns regarding facial data collection
+What is the primary goal of emotion-aware interfaces in user experience design?
+To create complex and visually appealing designs
+To ensure content aligns with the user's emotional state to avoid overwhelming them
+To focus solely on functional aspects of a product
+To prioritize system efficiency over user satisfaction
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To ensure content aligns with the user's emotional state to avoid overwhelming them
+
+-- 3 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Lecture 1
+Emotion
+Psychology
+(unit?
+1) 	1 point
+2) 	1 point
+Week 2: Assignment 2
+The due date for submitting this assignment has passed.
+Due on 2025-02-05, 23:59 IST.
+Assignment submitted on 2025-02-05, 22:37 IST
+Which type of emotion is primarily recognized in the stimuli?
+Induced emotion
+Perceived emotion
+None of the given
+A and B
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Perceived emotion
+Which model makes annotation easier for classifying emotions during data collection?
+Categorical Model
+Valence Arousal Dominance model
+None of the given
+A and B
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Categorical Model
+
+-- 4 of 41 --
+
+Week 3 ()
+Week 4 ()
+Week 5 ()
+unit=18&lesson
+=41)
+Lecture 2
+Emotion Theory
+(unit?
+unit=18&lesson
+=45)
+Lecture 3 Brain
+& Asymmetry
+(unit?
+unit=18&lesson
+=46)
+Lecture 4
+Emotional
+Design (unit?
+unit=18&lesson
+=47)
+Week 2
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=18&lesson
+=30)
+Quiz: Week 2:
+Assignment 2
+(assessment?
+name=117)
+Week 2 :
+Lecture
+Materials - Part
+1 (unit?
+unit=18&lesson
+=132)
+Week 2 :
+Lecture
+Materials - Part
+2 (unit?
+unit=18&lesson
+=133)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+In the Circumplex Model, which emotion belongs to Low Arousal and Positive Valence?
+Frustrated
+Delighted
+Content
+Tired
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Content
+Dominance allows better differentiation of emotions of overlapping in the VA model.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+A set of facial actions is specific to a particular emotion.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+Which of the following is/are a result of individual variability in emotions?
+Accumulation of emotions over time
+Cultural bias
+Cognitive appraisal
+All of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+All of the above
+In Emotion Design, which of the following is responsible for the initial impression of a
+product?
+Behavioral
+Visceral
+Reflective
+
+-- 5 of 41 --
+
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+All of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Visceral
+In the context of emotion recognition models, which model categorizes emotions into
+discrete, distinct categories or labels?
+Categorical model
+VAD model
+Universal model
+Dynamic model
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Categorical model
+What is the primary distinction between perceived emotions and induced emotions?
+Perceived emotions are universal, while induced emotions are culturally influenced.
+Perceived emotions are consciously experienced, while induced emotions are subconscious
+reactions.
+Perceived emotions are the emotions others observe in an individual, while induced
+emotions are intentionally expressed.
+Perceived emotions are the emotions an individual believes they are experiencing, while
+induced emotions are emotions intentionally triggered by external stimuli.
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Perceived emotions are the emotions an individual believes they are experiencing, while induced
+emotions are emotions intentionally triggered by external stimuli.
+Which of the following design level helps in improving the user-product interaction of a
+product?
+Visceral
+Behavioral
+Reflective
+None of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Behavioral
+
+-- 6 of 41 --
+
+
+
+-- 7 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Lecture 1 Affect
+Elicitation
+(unit?
+1) 	1 point
+2) 	1 point
+Week 3 : Assignment 3
+The due date for submitting this assignment has passed.
+Due on 2025-02-12, 23:59 IST.
+As per our records you have not submitted this assignment.
+What type of emotional expression is typically characterized by exaggerated and
+scripted feelings to simulate real emotions?
+Spontaneous expressions
+Acted expressions
+Authentic expressions
+Spontaneous nonverbal cues
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Acted expressions
+Which experimental design involves comparing different groups of participants who are
+exposed to varying conditions or stimuli?
+Between-subject design
+Within-subject design
+Both A and B
+Correlational design
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Between-subject design
+
+-- 8 of 41 --
+
+Week 4 ()
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+unit=19&lesson
+=49)
+Lecture 2
+Experimental
+Methodology
+(unit?
+unit=19&lesson
+=50)
+Tutorial (unit?
+unit=19&lesson
+=51)
+Week 3
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=19&lesson
+=31)
+Quiz: Week 3 :
+Assignment 3
+(assessment?
+name=119)
+Week 3 :
+Lecture
+Materials (unit?
+unit=19&lesson
+=134)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+When conducting research on emotion recognition, why is the inclusion of naturalistic
+stimuli important?
+It helps maintain consistent emotional expression across participants
+It increases the realism and relevance of the research findings
+It simplifies the emotion recognition process for participants
+It minimizes ethical concerns in emotional manipulation
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+It increases the realism and relevance of the research findings
+What is the purpose of presenting a neutral baseline film before showing emotional
+clips in a study?
+To establish a standard emotional state for all participants
+To assess the baseline physiological signals
+To make the participant feel neutral about the study
+To ensure that the participant understands the instructions
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+To establish a standard emotional state for all participants
+What kind of data can be collected while a participant is watching an emotional video
+clip?
+Physiological signals such as heart rate and skin conductivity
+Audio-visual data through a webcam or camera
+Both physiological signals and audio-visual data
+Only self-reported emotions from the participant
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Both physiological signals and audio-visual data
+What is the primary purpose of the Institutional Review Board (IRB) in human research
+studies?
+To ensure that research is conducted ethically and protects the welfare of human subjects
+To analyze the scientific validity of research proposals
+To recruit participants for experiments
+To determine the funding for human research projects
+No, the answer is incorrect.
+S
+
+-- 9 of 41 --
+
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+7) 	1 point
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Score: 0
+Accepted Answers:
+To ensure that research is conducted ethically and protects the welfare of human subjects
+Which of the following is NOT one of the categories of tools used in affective
+computing?
+Data collection tools
+Signal analysis tools
+Affective expression tools
+Natural language processing tools
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Natural language processing tools
+If you prefer a more customized approach to data annotation, what option do you
+have?
+Use prebuilt annotation tools exclusively
+Write your own scripts for data annotation
+Hire external annotators
+Focus only on video and audio modalities
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Write your own scripts for data annotation
+What is the primary function of data mining tools in affective computing?
+To collect raw data
+To preprocess data
+To analyze and understand emotions in the collected data
+To annotate the data
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+To analyze and understand emotions in the collected data
+Which of the following tools is mentioned as a commonly used and simple tool for
+emotion expression in machines?
+WEKA
+ICT Virtual Human Toolkit
+ROS (Robotics Operating System)
+SAM (Self-Assessment Manikin)
+
+-- 10 of 41 --
+
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+ICT Virtual Human Toolkit
+
+-- 11 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+3) 	1 point
+Week 4 : Assignment 4
+The due date for submitting this assignment has passed.
+Due on 2025-02-19, 23:59 IST.
+Assignment submitted on 2025-02-19, 14:09 IST
+Which frame serves as the reference frame for facial expression recognition?
+Starting frame of the sequence
+Last frame of the sequence
+Peak expression frame
+Random frame
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Peak expression frame
+Dynamic facial expressions share the transition duration.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+Which of the following is not an important step in conventional FER?
+Face detection
+
+-- 12 of 41 --
+
+Lecture 1
+Introduction to
+Facial
+Expression
+Recognition
+(unit?
+unit=20&lesson
+=53)
+Lecture 2
+Facial Feature
+Extraction
+(unit?
+unit=20&lesson
+=54)
+Lecture 3
+Group Level
+Emotion (unit?
+unit=20&lesson
+=55)
+Lecture 4
+Applications of
+Facial
+Expression
+Recognition
+(unit?
+unit=20&lesson
+=56)
+Tutorial (unit?
+unit=20&lesson
+=57)
+Week 4
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=20&lesson
+=32)
+Quiz: Week 4 :
+Assignment 4
+(assessment?
+name=120)
+Week 4 :
+Lecture
+Materials (unit?
+unit=20&lesson
+=135)
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+Feature Extraction
+Background analysis
+Face landmark detection
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Background analysis
+Temporal information is crucial for detecting micro-expressions.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+What does FACS stand for?
+Facial Attribute Coding System
+Facial Affect Coding System
+Facial Action Coding System
+Functional Action Coding System
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Facial Action Coding System
+Which of the facial features require less storage?
+Both appearance and geometric
+Appearance only
+Geometric only
+None of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Geometric only
+Sequential information helps in expression recognition.
+True
+False
+Yes, the answer is correct.
+S
+
+-- 13 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Score: 1
+Accepted Answers:
+True
+Which of the following features do not provide motion information?
+Motion History Images (HMI)
+Local Binary Patterns (LBP)
+Histogram of Gradients (HoG)
+Optical Flow
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Histogram of Gradients (HoG)
+The relative position of the persons in a group has no effect on the group level affect.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+When dealing with subtle facial expressions, which of the following is not a setback?
+Self-occlusion
+Illumination
+Individual variability
+Pose variation
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Pose variation
+
+-- 14 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+Week 5 : Assignment 5
+The due date for submitting this assignment has passed.
+Due on 2025-02-26, 23:59 IST.
+Assignment submitted on 2025-02-26, 22:36 IST
+Which of the following is true about emotional speech signals?
+Emotional speech always follows predictable patterns
+Emotional speech can be conveyed through tone, rhythm, and loudness
+Emotional speech is only expressed through content words
+Emotional speech is always louder than neutral speech
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Emotional speech can be conveyed through tone, rhythm, and loudness
+What is a key factor in determining the emotional tone of a speaker's voice?
+The pitch and modulation of the voice
+The speed of speech
+The presence of background music
+The clarity of the speaker's pronunciation
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The pitch and modulation of the voice
+
+-- 15 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Tutorial (unit?
+unit=21&lesson
+=59)
+Lecture 1
+Speech in
+Affective
+Computing
+(unit?
+unit=21&lesson
+=60)
+Analysis and
+Synthesis of
+Affective
+Speech (unit?
+unit=21&lesson
+=61)
+Week 5
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=21&lesson
+=33)
+Quiz: Week 5 :
+Assignment 5
+(assessment?
+name=121)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+Which of the following is a commonly used feature in speech emotion recognition?
+Mel-frequency cepstral coefficients (MFCCs)
+Linear prediction coefficients (LPCs)
+Formant frequencies
+All of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+All of the above
+What does "prosody" refer to in speech emotion recognition?
+The phonetic structure of speech
+The rhythm, pitch, and intonation patterns in speech
+The speaker's gender and age-related characteristics
+The loudness of speech
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The rhythm, pitch, and intonation patterns in speech
+Why is it important to analyze emotions in situations where people speak different
+languages, like in interrogations?
+To understand the emotional state of the speaker
+To count how many languages are being spoken
+To identify the speaker’s name
+To translate all words to one language
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To understand the emotional state of the speaker
+Which of the following prosody-based features is used to measure the energy in an
+input acoustic signal?
+Loudness
+Pitch
+Speech rate
+Formant frequency
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Loudness
+
+-- 16 of 41 --
+
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+7) 	1 point
+8) 	1 point
+9) 	1 point
+10) 	1 point
+What is the advantage of using pre-trained networks in speech analysis over hand-
+engineered features like MFCC?
+Pre-trained networks automatically extract features through deep learning
+Hand-engineered features are more accurate
+Pre-trained networks do not require data
+Hand-engineered features work better for real-time analysis
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Pre-trained networks automatically extract features through deep learning
+Which of the following machine learning techniques is commonly used in speech
+emotion analysis?
+Hidden Markov Models
+K-means clustering
+Linear regression
+Decision trees only
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Hidden Markov Models
+What is the primary reason for using spectrograms in speech-based emotion
+recognition?
+To visualize the frequency content of the audio signal over time
+To reduce the duration of the audio signal
+To eliminate background noise in the signal
+To make the signal easier to interpret in its raw form
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To visualize the frequency content of the audio signal over time
+In the speech synthesis example, how can one distinguish between disappointment
+and excitement in the speech?
+By listening to differences in tone and emotional expression in the speech
+By looking at the text that is being read aloud
+By measuring the pitch of the voice only
+By analyzing the background noise in the audio
+Yes, the answer is correct.
+S
+
+-- 17 of 41 --
+
+Score: 1
+Accepted Answers:
+By listening to differences in tone and emotional expression in the speech
+
+-- 18 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+3) 	1 point
+Week 6 : Assignment 6
+The due date for submitting this assignment has passed.
+Due on 2025-03-05, 23:59 IST.
+Assignment submitted on 2025-03-05, 23:41 IST
+The shape and placement of text significantly contribute to conveying emotion in
+design or communication.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+Emotion representation in text is:
+Always straightforward and easily detectable without considering the surrounding context.
+Often complex and influenced by the surrounding context.
+Primarily dependent on the use of specific emotion words.
+A combination of linguistic features and contextual clues.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Often complex and influenced by the surrounding context.
+How can cultural differences impact the interpretation of emotions in text?
+
+-- 19 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Lecture 1 Text
+in Affective
+Computing
+(unit?
+unit=22&lesson
+=63)
+Lecture 2
+Features and
+Methods for
+Text Analysis
+(unit?
+unit=22&lesson
+=64)
+Tutorial (unit?
+unit=22&lesson
+=65)
+Week 6
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=22&lesson
+=34)
+Quiz: Week 6 :
+Assignment 6
+(assessment?
+name=123)
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+Cultural differences have no impact on emotion recognition.
+Cultural differences can lead to misunderstandings and misinterpretations of emotions.
+Cultural differences can enhance the understanding of emotions, as they provide diverse
+perspectives.
+Cultural differences are only relevant in face-to-face communication, not in text-based
+communication.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Cultural differences can lead to misunderstandings and misinterpretations of emotions.
+What is the significance of a high objective score for a word in SentiWordNet?
+The word is highly positive.
+The word is highly negative.
+The word is highly neutral.
+The word has a strong sentiment orientation.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The word is highly neutral.
+What is the primary objective of Bag-of-Words?
+To represent text as a numerical feature vector.
+To understand the grammatical structure of a text.
+To analyze the semantic relationships between words in a text.
+To identify the topic or theme of a text.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To represent text as a numerical feature vector.
+What is an n-gram?
+A statistical method for estimating the probability of a word.
+A technique for stemming words.
+A type of neural network architecture.
+A sequence of n consecutive words in a text.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+A sequence of n consecutive words in a text.
+How can part-of-speech tagging help in emotion recognition?
+
+-- 20 of 41 --
+
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+It identifies the grammatical role of words in a sentence, which can provide clues about the
+intended emotion.
+It extracts keywords from a text.
+It identifies the topic of a text.
+It analyzes the semantic meaning of words.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+It identifies the grammatical role of words in a sentence, which can provide clues about the
+intended emotion.
+Which model is better suited for handling rare words or out-of-vocabulary words?
+Word2Vec
+FastText
+GloVe
+All are equally suited
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+FastText
+What does the IDF component in TF-IDF represent?
+The frequency of a term within a document.
+The total number of documents in the corpus
+The importance of a term relative to the entire corpus.
+The number of times a term appears in a document multiplied by the total number of terms in
+the document.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The importance of a term relative to the entire corpus.
+Basic statistics are computed around the labels assigned by different labelers in text-
+based emotion detection to arrive at a final emotional classification for a statement
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+
+-- 21 of 41 --
+
+
+
+-- 22 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+3) 	1 point
+Week 7 : Assignment 7
+The due date for submitting this assignment has passed.
+Due on 2025-03-12, 23:59 IST.
+As per our records you have not submitted this assignment.
+Which of the following is the primary physiological indicator measured in Electrodermal
+Activity (EDA)?
+The electrical resistance of the skin
+The amount of sweat produced by the skin
+The heart rate variability
+The brain wave activity
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+The electrical resistance of the skin
+Heart rate variability is often reduced in individuals experiencing high stress.
+True
+False
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+True
+Which of the following is NOT a typical physiological marker for detecting emotions in
+the autonomic nervous system?
+
+-- 23 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+WK 7 Lecture 1
+(unit?
+unit=23&lesson
+=69)
+WK 7 Tutorial
+(unit?
+unit=23&lesson
+=70)
+Week 7
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=23&lesson
+=35)
+Quiz: Week 7 :
+Assignment 7
+(assessment?
+name=122)
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+Heart rate
+Respiratory rate
+Oxygen saturation
+Skin temperature
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Oxygen saturation
+The Theta frequency band in EEG is commonly associated with deep relaxation and
+meditation states.
+True
+False
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+True
+Which of the following emotions has been found to be correlated with heart rate?
+Happiness
+Anger
+Sadness
+Surprise
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Anger
+Why does heart rate increase during stressful situations, such as giving a
+presentation?
+The brain signals the heart to pump more blood due to perceived stress or importance.
+The heart automatically adjusts to any increase in oxygen levels.
+The brain reduces the heart rate to conserve energy.
+The brain disconnects from the heart during stressful events.
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+The brain signals the heart to pump more blood due to perceived stress or importance.
+Which of the following is a more accurate method for measuring heart rate?
+Photoplethysmography (PPG)
+Electrocardiogram (ECG)
+
+-- 24 of 41 --
+
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Both are equally accurate
+Neither
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Electrocardiogram (ECG)
+How does posture affect heart rate during measurement?
+It does not affect heart rate.
+An uncomfortable posture may cause an increase in heart rate due to extra effort needed for
+stabilization.
+An uncomfortable posture decreases heart rate.
+Posture has only a minor effect on heart rate.
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+An uncomfortable posture may cause an increase in heart rate due to extra effort needed for
+stabilization.
+What aspect of emotional state can heart rate measurements accurately estimate?
+Valence
+Arousal
+Both valence and arousal
+Neither
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Arousal
+Heart rate measurements can distinguish whether the arousal is caused by positive or
+negative stim
+True
+False
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+False
+
+-- 25 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+Week 8 : Assignment 8
+The due date for submitting this assignment has passed.
+Due on 2025-03-19, 23:59 IST.
+Assignment submitted on 2025-03-15, 08:06 IST
+1.Which of the following emotional states is typically associated with increased skin
+conductance?
+Boredom
+Relaxation
+Stress
+Happiness
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Stress
+What is a common technique used to measure skin conductance?
+Electromyography (EMG)
+Electroencephalography (EEG)
+Functional Magnetic Resonance Imaging (fMRI)
+Galvanic Skin Response (GSR)
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Galvanic Skin Response (GSR)
+
+-- 26 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Lecture 2
+Emotions via
+Skin
+Conductance
+(unit?
+unit=24&lesson
+=72)
+Lecture 3
+Emotions Via
+EEG (unit?
+unit=24&lesson
+=73)
+Multimodal
+Affect
+Recognition
+(unit?
+unit=24&lesson
+=74)
+Multimodal
+Analysis (unit?
+unit=24&lesson
+=75)
+Week 8 : MM
+Tutorial (unit?
+unit=24&lesson
+=76)
+Week 8
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=24&lesson
+=36)
+Quiz: Week 8 :
+Assignment 8
+(assessment?
+name=124)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+How can SCL and SCR be used to assess emotional arousal?
+Increased SCL and SCR indicate higher arousal.
+Decreased SCL and SCR indicate higher arousal.
+Increased SCL but decreased SCR indicate higher arousal.
+Decreased SCL but increased SCR indicate higher arousal.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Increased SCL and SCR indicate higher arousal.
+What is the primary advantage of using the 10-20 system?
+It allows for easy comparison of EEG data across different studies.
+It reduces the number of electrodes needed for EEG recordings.
+It increases the spatial resolution of EEG recordings.
+It eliminates the need for precise anatomical measurements.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+It allows for easy comparison of EEG data across different studies.
+Which frequency band is associated with deep sleep?
+Alpha
+Beta
+Delta
+Theta
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Delta
+In a multimodal setting, each modality is expected to provide similar information.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+What is a major challenge in early feature fusion of multimodal data?
+Data alignment and synchronization issues.
+Increased computational complexity.
+
+-- 27 of 41 --
+
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Selection of appropriate feature extraction techniques.
+Lack of standardized evaluation metrics.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Data alignment and synchronization issues.
+Which fusion level is most suitable for modalities with different temporal resolutions?
+Early fusion
+Intermediate fusion
+Late fusion
+All have the same effect.
+Partially Correct.
+Score: 0.5
+Accepted Answers:
+Intermediate fusion
+Late fusion
+Which type of features does feature selection aim to eliminate?
+Descriptive features
+Relevant features
+Redundant features
+Interactive features
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Redundant features
+Slow fusion eliminates the synchronization requirement while taking advantage of the
+correlations between the modalities.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+
+-- 28 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+Week 9 : Assignment 9
+The due date for submitting this assignment has passed.
+Due on 2025-03-26, 23:59 IST.
+Assignment submitted on 2025-03-20, 18:06 IST
+What is the core concept of empathy?
+Recognizing and understanding the emotional states of others
+Feeling pity for others in distress
+Ignoring others' emotional states
+Controlling others' emotions
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Recognizing and understanding the emotional states of others
+The Uncanny Valley effect is most often observed when:
+A robot has human-like features but lacks certain human behaviors
+A robot mimics human emotions accurately
+A robot appears completely non-human
+A robot displays behaviors that are distinctly mechanical
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+A robot has human-like features but lacks certain human behaviors
+
+-- 29 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Tutorial (unit?
+unit=25&lesson
+=78)
+week 9 Lecture
+1 (unit?
+unit=25&lesson
+=79)
+week 9 Lecture
+2 (unit?
+unit=25&lesson
+=80)
+week 9 Lecture
+3 (unit?
+unit=25&lesson
+=81)
+Week 9
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=25&lesson
+=37)
+Quiz: Week 9 :
+Assignment 9
+(assessment?
+name=125)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+Can empathy in robots and virtual agents be genuine?
+Yes, as long as the agent can process and respond to emotional signals
+No, empathy in agents is always simulated and not truly felt
+Yes, but only when humans are aware it is an agent
+No, empathy in robots is irrelevant for effective interaction
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+No, empathy in agents is always simulated and not truly felt
+What is the key focus of perspective-taking in the context of empathy?
+Understanding the emotional state of an individual based on their physiological cues
+Analyzing how the response will make the individual feel from their point of view
+Modifying the emotional state of an individual by regulating their feelings
+Ignoring the user's feelings to maintain an objective response
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Analyzing how the response will make the individual feel from their point of view
+What is the primary goal of empathy analysis in the context of artificial empathy?
+To predict the emotional state of an individual without understanding the context of the
+interaction
+To understand the emotional state of the user and evaluate whether the interaction is
+empathetic
+To generate empathetic responses in virtual agents based on physiological cues
+To analyze only the physiological cues without considering behavioral aspects
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To understand the emotional state of the user and evaluate whether the interaction is empathetic
+The appearance of an embodied agent should be designed to match the specific
+characteristics of the target user to enhance empathy.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+Which of the following best describes the role of lexical cues in empathy analysis?
+
+-- 30 of 41 --
+
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+8) 	1 point
+9) 	1 point
+10) 	1 point
+Lexical cues are physiological data used to assess emotional states
+Lexical cues are text-based data used to analyze the empathetic quality of interactions
+Lexical cues are only used in analyzing emotional states, not empathy
+Lexical cues focus on the visual and audio cues of the interaction
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Lexical cues are text-based data used to analyze the empathetic quality of interactions
+What is one of the mediating factors that can affect the empathetic response of an
+observer?
+The agent's physical location
+The mood of the observer
+The agent's programming language
+The time of day
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The mood of the observer
+What was the result of providing empathetic feedback in the virtual interview scenario?
+It increased the interview stress level
+It had no effect on the interview stress level
+It reduced the interview stress level
+It caused the interview to be abandoned
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+It reduced the interview stress level
+The emotional state of the user is irrelevant when designing an embodied agent for a
+specific task.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+
+-- 31 of 41 --
+
+
+
+-- 32 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+Week 10 : Assignment 10
+The due date for submitting this assignment has passed.
+Due on 2025-04-02, 23:59 IST.
+Assignment submitted on 2025-04-02, 22:49 IST
+Learners’ experiences with affective learning technologies involve both emotional
+responses and learning outcomes
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+How does GazeTutor use eye-tracking data to improve learning?
+By identifying when students are struggling with a concept.
+By predicting students' future performance.
+By adapting the difficulty level of the tutoring content.
+By providing real-time feedback on students' attention and engagement.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+By providing real-time feedback on students' attention and engagement.
+
+-- 33 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Emotionally
+Intelligent
+Machines Part-
+1 (unit?
+unit=26&lesson
+=83)
+Emotionally
+Intelligent
+Machines Part-
+2 (unit?
+unit=26&lesson
+=84)
+Case_Study
+(unit?
+unit=26&lesson
+=85)
+Week 10
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=26&lesson
+=38)
+Quiz: Week 10
+: Assignment
+10
+(assessment?
+name=126)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+A machine that can anticipate future needs and adjust its behavior accordingly is at
+which level of adaptation?
+Level 0
+Level 1
+Level 2
+Level 3
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+Level 2
+Camera can be used to monitor the heart rate of the user.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+What is empathy in the context of affective computing?
+The ability of a machine to understand and respond to human emotions.
+The ability of a machine to perform tasks independently.
+The ability of a machine to learn from experience.
+The ability of a machine to process and analyze large amounts of data.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The ability of a machine to understand and respond to human emotions.
+Tendency to provide human characteristics to non-lifelike artifacts is called as
+Polymorphism
+Anthropomorphism
+Skeuomorphism
+Neumorphism
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Anthropomorphism
+Parallel empathy is characterized by:
+A strong emotional response to another person's feelings.
+
+-- 34 of 41 --
+
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books () 	8) 	1 point
+9) 	1 point
+10) 	1 point
+A detached and objective perspective on another person's emotions.
+The ability to understand and share another person's feelings without being overwhelmed.
+A tendency to avoid emotional situations.
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+The ability to understand and share another person's feelings without being overwhelmed.
+User feedback ratings can be a metric for evaluating affective agents.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+Which of the following strategies can help to reduce negative affective states in
+learners?
+Increasing the difficulty of tasks.
+Providing immediate feedback.
+Creating a competitive learning environment.
+Ignoring learner emotions.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Providing immediate feedback.
+Cognitive empathy involves perceiving the emotions of the target in a logical manner.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+
+-- 35 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+1) 	1 point
+2) 	1 point
+Week 11 : Assignment 11
+The due date for submitting this assignment has passed.
+Due on 2025-04-09, 23:59 IST.
+Assignment submitted on 2025-04-09, 10:34 IST
+A virtual assistant takes input in the form of text messages only.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+Which of the following is NOT a part of the process for creating a virtual assistant as
+described in the lecture?
+Wake word detection
+Automatic Speech Recognition (ASR)
+Emotion detection in the speech
+Data encryption for privacy
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Data encryption for privacy
+
+-- 36 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Text
+Transcript ()
+week 11
+Lecture 1 (unit?
+unit=27&lesson
+=89)
+week 11
+Lecture 2 (unit?
+unit=27&lesson
+=90)
+Case Study
+(unit?
+unit=27&lesson
+=88)
+Week 11
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=27&lesson
+=39)
+Quiz: Week 11
+: Assignment
+11
+(assessment?
+name=127)
+3) 	1 point
+4) 	1 point
+5) 	1 point
+6) 	1 point
+7) 	1 point
+It is acceptable to anthropomorphize emotional virtual agents as long as they provide
+useful emotional support to users.
+True
+False
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+False
+An emotionally intelligent virtual assistant can help improve communication and reduce
+stress in the workplace by recognizing emotional cues from employees.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+In which domain can an emotionally intelligent virtual assistant help provide real-time
+emotional support and coping strategies?
+Healthcare
+Customer service
+Mental health and therapy
+Entertainment
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Mental health and therapy
+What is the main goal of using an emotionally intelligent virtual assistant in education?
+To replace teachers
+To monitor students’ grades
+To identify when students need additional support and provide targeted feedback
+To conduct exams
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To identify when students need additional support and provide targeted feedback
+The first step in the process of building an emotionally intelligent virtual assistant is to
+identify the language spoken by the user.
+True
+
+-- 37 of 41 --
+
+Problem
+Solving
+Session - Jan
+2025 ()
+Books () 	8) 	1 point
+9) 	1 point
+10) 	1 point
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+False
+What is the role of the "context" in an emotionally intelligent virtual assistant?
+To recognize the user’s emotion at all times
+To understand the user’s preferences and history for personalized responses
+To determine the user’s intent regardless of their emotional state
+To simply follow the user’s spoken instructions without emotion or history
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To understand the user’s preferences and history for personalized responses
+What is the primary ethical concern related to privacy when developing emotionally
+intelligent virtual agents?
+The agent may not be able to collect enough data.
+The agent may collect personal data without user consent.
+The agent may not be able to process data accurately.
+The agent may share personal data only with medical professionals.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+The agent may collect personal data without user consent.
+How can emotional virtual agents help avoid bias in their responses to users?
+By using data from only one ethnic group.
+By ensuring the data used for training is diverse and representative.
+By focusing on only one language group.
+By ignoring cultural differences.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+By ensuring the data used for training is diverse and representative.
+
+-- 38 of 41 --
+
+
+X
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL) » Affective Computing (course)
+(https://swayam.gov.in) 	(https://swayam.gov.in/nc_details/NPTEL)
+rithikesh.rathi.ug21@nsut.ac.in 
+Click to register
+for Certification
+exam
+(https://examform.nptel.ac.in/2025_01/exam_form/dashboard)
+If already
+registered, click
+to check your
+payment status
+Course
+outline
+About NPTEL
+()
+How does an
+NPTEL online
+course work?
+()
+Week 1 ()
+Week 2 ()
+Week 3 ()
+Week 4 ()
+Due date: 2025-04-16, 23:59 IST.
+1) 	1 point
+2) 	1 point
+3) 	1 point
+4) 	1 point
+Week 12 : Assignment 12
+Your last recorded submission was on 2025-04-09, 10:36 IST
+Privacy concerns in affective computing arise from:
+The collection and analysis of personal data
+The potential for misuse of emotional information
+The lack of transparency in AI decision-making
+None of the above.
+Which of the following is not a potential Ethical Consideration that need not to be
+addressed?
+Emotional Manipulation
+Privacy
+Emotional Dependency
+System accuracy
+Which of the following has a high level of privacy intrusion?
+Audio jack
+WiFi
+Camera
+Bluetooth
+All mobile sensors capture the least amount of sensitive data.
+True
+
+-- 39 of 41 --
+
+Week 5 ()
+Week 6 ()
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Download
+Videos ()
+Ethics in
+Affective
+Computing_1
+(unit?
+unit=28&lesson
+=93)
+Ethics in
+Affective
+Computing_2
+(unit?
+unit=28&lesson
+=94)
+Course_Finale
+(unit?
+unit=28&lesson
+=95)
+Week 12
+Feedback
+Form:Affective
+Computing!!
+(unit?
+unit=28&lesson
+=40)
+Quiz: Week 12
+: Assignment
+12
+(assessment?
+name=128)
+5) 	1 point
+6) 	1 point
+7) 	1 point
+8) 	1 point
+9) 	1 point
+10) 	1 point
+False
+Which of the following sensing strategies is written wrongly in order of their privacy
+invasiveness, in ascending order?
+Microphone > WiFi> Accelerometer
+GPS > Bluetooth > Screen Touch
+WiFi > Gyroscope > Calls
+Calls > Apps > Gyroscope
+What is the primary goal of anticipatory mobile computing?
+To predict user needs and proactively provide services.
+To optimize battery life on mobile devices.
+To enhance the security of mobile devices.
+To increase the processing power of mobile devices.
+From an ethics perspective, what is a significant concern regarding affect-sensing apps
+in relation to emotional dependency?
+User engagement
+Privacy intrusion
+Emotional manipulation
+User addiction
+What is a potential ethical concern related to facial expression recognition?
+Privacy violations
+Bias in recognition systems
+Misinterpretation of emotions
+All of the above
+It is possible to completely anonymize a user's personal information using algorithms.
+True
+False
+Who should be involved in shaping the ethical guidelines for the development of affect-
+aware machines?
+Engineers and developers only.
+Ethicists and philosophers only.
+Users and stakeholders only.
+A combination of engineers, ethicists, users, and other relevant stakeholders.
+
+-- 40 of 41 --
+
+Text
+Transcript ()
+Problem
+Solving
+Session - Jan
+2025 ()
+Books ()
+You may submit any number of times before the due date. The final submission will be considered
+for grading.
+Submit Answers
+
+-- 41 of 41 --
+
