@@ -1,0 +1,227 @@
+import { WeekStudyContent } from "@/lib/types";
+
+export const weeks: WeekStudyContent[] = [
+  {
+    week: 1,
+    title: "Introduction to Affective Computing",
+    summary:
+      "Affective computing is the study and development of systems that can recognize, interpret, process, and simulate human affects (emotions). Coined by Rosalind Picard at MIT in 1997, the field bridges computer science, psychology, and cognitive science. This week covers the foundational definitions, the importance of emotions in human-computer interaction, and an overview of the affect recognition pipeline.",
+    keyConcepts: [
+      "Definition of Affect, Emotion, Mood, and Sentiment",
+      "Rosalind Picard's framework for affective computing",
+      "Why emotions matter in HCI",
+      "Components of the affect recognition pipeline",
+      "Applications: healthcare, education, entertainment, automotive",
+    ],
+    importantTerms: {
+      Affect: "A broad term encompassing emotions, moods, and feelings that influence behavior and cognition.",
+      Emotion: "A short-lived, intense psychological state triggered by a specific event or stimulus.",
+      Mood: "A longer-lasting, less intense affective state not necessarily tied to a specific cause.",
+      Sentiment: "An attitude or opinion, often extracted from text, reflecting positive, negative, or neutral valence.",
+      Valence: "The intrinsic attractiveness (positive) or averseness (negative) of an emotion.",
+      Arousal: "The intensity or level of activation associated with an emotional state.",
+    },
+    commonConfusions: [
+      "Emotion vs. Mood: Emotions are brief and event-triggered; moods are prolonged and diffuse.",
+      "Affect vs. Emotion: Affect is the umbrella term; emotion is a specific category under it.",
+      "Sentiment analysis is NLP-based and works on text; emotion recognition works on faces, voice, physiology.",
+    ],
+    linkedQuestionIds: ["w1q1", "w1q2", "w1q3", "w1q4", "w1q5", "w1q6", "w1q7", "w1q8", "w1q9", "w1q10"],
+  },
+  {
+    week: 2,
+    title: "Emotion Models and Theories",
+    summary:
+      "This week dives into the theoretical foundations of emotion. We cover categorical models (Ekman's basic emotions), dimensional models (Russell's circumplex, Plutchik's wheel), and appraisal theories (Scherer, Lazarus). Understanding these models is critical because they define the label spaces and feature representations used in computational emotion recognition.",
+    keyConcepts: [
+      "Ekman's six basic emotions",
+      "Russell's Circumplex Model of Affect (valence-arousal space)",
+      "Plutchik's Wheel of Emotions",
+      "Appraisal theories: Scherer's Component Process Model",
+      "Discrete vs. dimensional vs. appraisal approaches",
+      "OCC (Ortony, Clore, Collins) model",
+    ],
+    importantTerms: {
+      "Basic Emotions": "Ekman's six universal emotions: happiness, sadness, anger, fear, surprise, disgust.",
+      "Circumplex Model": "Russell's 2D model plotting emotions on valence (pleasant-unpleasant) and arousal (active-passive) axes.",
+      "Plutchik's Wheel": "A 3D model with eight primary emotions arranged in opposing pairs with varying intensity levels.",
+      "Appraisal Theory": "Emotions arise from cognitive evaluation (appraisal) of events relative to one's goals and coping ability.",
+      "OCC Model": "A cognitive model defining 22 emotion types based on appraisals of events, agents, and objects.",
+      Dominance: "The third dimension sometimes added to valence-arousal, representing perceived control over a situation.",
+    },
+    commonConfusions: [
+      "Categorical models (Ekman) assign discrete labels; dimensional models (Russell) map emotions on continuous axes.",
+      "Plutchik's model IS categorical but arranges categories spatially — it's a hybrid.",
+      "Appraisal theory explains WHY emotions occur; basic emotion theory describes WHAT emotions exist.",
+    ],
+    linkedQuestionIds: ["w2q1", "w2q2", "w2q3", "w2q4", "w2q5", "w2q6", "w2q7", "w2q8", "w2q9", "w2q10"],
+  },
+  {
+    week: 3,
+    title: "Facial Expression Recognition",
+    summary:
+      "Facial expressions are one of the most studied modalities in affective computing. This week covers the Facial Action Coding System (FACS), face detection and landmark localization, feature extraction methods (geometric, appearance-based, deep learning), and classification pipelines for expression recognition.",
+    keyConcepts: [
+      "FACS and Action Units (AUs)",
+      "Face detection: Viola-Jones, MTCNN, RetinaFace",
+      "Facial landmark detection (68-point, 3D landmarks)",
+      "Geometric vs. appearance-based features",
+      "CNNs for facial expression recognition",
+      "Datasets: CK+, FER2013, AffectNet, RAF-DB",
+    ],
+    importantTerms: {
+      FACS: "Facial Action Coding System — a taxonomy of facial muscle movements (Action Units) developed by Ekman and Friesen.",
+      "Action Unit": "A fundamental facial muscle movement (e.g., AU6 = cheek raiser, AU12 = lip corner puller).",
+      "Viola-Jones": "A classical real-time face detection algorithm using Haar-like features and AdaBoost cascades.",
+      "Appearance Features": "Pixel-intensity-based representations like LBP, HOG, or Gabor filters extracted from face regions.",
+      "Geometric Features": "Shape-based features derived from facial landmark positions and their relative distances/angles.",
+      AffectNet: "A large-scale dataset with ~450K images annotated for both categorical emotions and valence-arousal.",
+    },
+    commonConfusions: [
+      "FACS describes muscle movements (AUs), not emotions directly — AU combinations map to emotion labels.",
+      "Geometric features need accurate landmarks; appearance features work on raw face crops.",
+      "FER2013 has noisy labels — high accuracy on it doesn't guarantee real-world performance.",
+    ],
+    linkedQuestionIds: ["w3q1", "w3q2", "w3q3", "w3q4", "w3q5", "w3q6", "w3q7", "w3q8", "w3q9", "w3q10"],
+  },
+  {
+    week: 4,
+    title: "Speech and Audio Emotion Recognition",
+    summary:
+      "Vocal cues carry rich emotional information beyond words. This week covers acoustic feature extraction (prosody, spectral, voice quality), speech emotion recognition (SER) pipelines, common datasets, and the distinction between linguistic and paralinguistic cues.",
+    keyConcepts: [
+      "Prosodic features: pitch, energy, speaking rate",
+      "Spectral features: MFCCs, formants, spectral centroid",
+      "Voice quality: jitter, shimmer, HNR",
+      "SER pipeline: feature extraction → classification",
+      "Deep learning for SER: CNNs on spectrograms, RNNs on sequences",
+      "Datasets: IEMOCAP, RAVDESS, EMO-DB, MSP-IMPROV",
+    ],
+    importantTerms: {
+      Prosody: "Suprasegmental features of speech including intonation (pitch), stress (energy), and tempo (rate).",
+      MFCC: "Mel-Frequency Cepstral Coefficients — a compact spectral representation mimicking human auditory perception.",
+      Jitter: "Cycle-to-cycle variation in fundamental frequency, associated with voice quality and emotional state.",
+      Shimmer: "Cycle-to-cycle variation in amplitude, another voice quality indicator linked to emotion.",
+      IEMOCAP: "Interactive Emotional Dyadic Motion Capture — a multimodal dataset with acted and improvised dialogues.",
+      "Paralinguistic Cues": "Non-verbal vocal information (tone, pitch, pace) that conveys emotion independent of word meaning.",
+    },
+    commonConfusions: [
+      "Linguistic = what is said (words); paralinguistic = how it is said (tone, pitch, pace).",
+      "MFCCs capture spectral shape, not pitch directly — pitch is extracted separately as F0.",
+      "IEMOCAP is multimodal (audio + video + motion capture), not just a speech dataset.",
+    ],
+    linkedQuestionIds: ["w4q1", "w4q2", "w4q3", "w4q4", "w4q5", "w4q6", "w4q7", "w4q8", "w4q9", "w4q10"],
+  },
+  {
+    week: 5,
+    title: "Text-Based Sentiment and Emotion Analysis",
+    summary:
+      "Natural language is a key channel for expressing emotions. This week covers sentiment analysis (positive/negative/neutral), fine-grained emotion detection in text, lexicon-based approaches, machine learning methods, and transformer-based models for affective text analysis.",
+    keyConcepts: [
+      "Sentiment vs. emotion in text",
+      "Lexicon-based methods: LIWC, SentiWordNet, NRC Emotion Lexicon",
+      "Bag-of-words and TF-IDF representations",
+      "Deep learning: LSTMs, transformers, BERT for sentiment",
+      "Aspect-based sentiment analysis",
+      "Challenges: sarcasm, irony, context-dependence",
+    ],
+    importantTerms: {
+      "Sentiment Analysis": "Classifying text polarity as positive, negative, or neutral.",
+      "NRC Emotion Lexicon": "A word-level lexicon associating words with Plutchik's eight basic emotions and two sentiments.",
+      "LIWC": "Linguistic Inquiry and Word Count — a text analysis tool mapping words to psychological categories.",
+      "Aspect-Based SA": "Identifying sentiment toward specific aspects/features within a text (e.g., 'great camera, bad battery').",
+      "BERT": "Bidirectional Encoder Representations from Transformers — a pre-trained language model effective for sentiment tasks.",
+      "TF-IDF": "Term Frequency–Inverse Document Frequency — a statistical measure of word importance in a document collection.",
+    },
+    commonConfusions: [
+      "Sentiment (positive/negative) is simpler than emotion (anger, joy, fear, etc.) — they're different tasks.",
+      "Lexicon methods are interpretable but miss context; deep learning captures context but is less transparent.",
+      "Sarcasm reverses surface sentiment — 'Oh great, another bug' is negative despite the word 'great'.",
+    ],
+    linkedQuestionIds: ["w5q1", "w5q2", "w5q3", "w5q4", "w5q5", "w5q6", "w5q7", "w5q8", "w5q9", "w5q10"],
+  },
+  {
+    week: 6,
+    title: "Physiological Signals for Emotion Recognition",
+    summary:
+      "Physiological signals like EEG, ECG, GSR, and EMG provide objective, less consciously controllable indicators of emotional states. This week covers sensor modalities, signal processing pipelines, feature extraction, and the advantages and challenges of using physiological signals in affective computing.",
+    keyConcepts: [
+      "EEG: brainwave patterns and frequency bands (alpha, beta, theta, gamma)",
+      "GSR/EDA: skin conductance and emotional arousal",
+      "ECG/HRV: heart rate variability and autonomic nervous system",
+      "EMG: facial and body muscle activity",
+      "Signal preprocessing: filtering, artifact removal, segmentation",
+      "Datasets: DEAP, SEED, AMIGOS, WESAD",
+    ],
+    importantTerms: {
+      EEG: "Electroencephalography — measures electrical brain activity via scalp electrodes.",
+      "GSR/EDA": "Galvanic Skin Response / Electrodermal Activity — measures skin conductance changes due to sweat gland activity.",
+      HRV: "Heart Rate Variability — variation in time intervals between heartbeats, reflecting autonomic nervous system activity.",
+      EMG: "Electromyography — measures electrical activity of muscles.",
+      DEAP: "Database for Emotion Analysis using Physiological Signals — a multimodal dataset with EEG, GSR, and more.",
+      "Frequency Bands": "EEG signal components: delta (<4Hz), theta (4-8Hz), alpha (8-13Hz), beta (13-30Hz), gamma (>30Hz).",
+    },
+    commonConfusions: [
+      "GSR measures arousal well but not valence — you need EEG asymmetry or other signals for valence.",
+      "EEG has high temporal resolution but low spatial resolution compared to fMRI.",
+      "HRV reflects autonomic activity (both sympathetic and parasympathetic), not just stress.",
+    ],
+    linkedQuestionIds: ["w6q1", "w6q2", "w6q3", "w6q4", "w6q5", "w6q6", "w6q7", "w6q8", "w6q9", "w6q10"],
+  },
+  {
+    week: 7,
+    title: "Multimodal Emotion Recognition",
+    summary:
+      "Real-world emotion recognition benefits from combining multiple modalities (face, voice, text, physiology). This week covers fusion strategies (early, late, hybrid), attention mechanisms for multimodal learning, cross-modal alignment, and challenges in multimodal affective computing.",
+    keyConcepts: [
+      "Why multimodal: complementary and redundant cues",
+      "Early (feature-level) fusion",
+      "Late (decision-level) fusion",
+      "Hybrid and attention-based fusion",
+      "Cross-modal transformers",
+      "Challenges: temporal alignment, missing modalities, computational cost",
+    ],
+    importantTerms: {
+      "Early Fusion": "Concatenating features from different modalities before classification.",
+      "Late Fusion": "Training separate classifiers per modality and combining their predictions (e.g., voting, averaging).",
+      "Hybrid Fusion": "Combining early and late fusion strategies, often using attention to weight modality contributions.",
+      "Cross-Modal Attention": "Mechanism allowing one modality to attend to relevant parts of another modality.",
+      "Temporal Alignment": "Synchronizing signals from different modalities that may have different sampling rates and latencies.",
+      "Missing Modality": "Handling cases where one or more input modalities are unavailable at inference time.",
+    },
+    commonConfusions: [
+      "Early fusion = combine raw features; late fusion = combine predictions. Hybrid uses both.",
+      "More modalities don't always help — noisy or redundant modalities can hurt performance.",
+      "Temporal alignment is critical for audio-visual fusion since video and audio have different frame rates.",
+    ],
+    linkedQuestionIds: ["w7q1", "w7q2", "w7q3", "w7q4", "w7q5", "w7q6", "w7q7", "w7q8", "w7q9", "w7q10"],
+  },
+  {
+    week: 8,
+    title: "Affective Computing Applications and Ethics",
+    summary:
+      "The final week explores real-world applications of affective computing across domains — education, healthcare, automotive, gaming — and the critical ethical considerations including privacy, consent, bias, and the risks of emotion surveillance.",
+    keyConcepts: [
+      "Affective tutoring systems",
+      "Mental health monitoring and interventions",
+      "Driver drowsiness and emotion detection",
+      "Emotion-aware gaming and entertainment",
+      "Ethical concerns: privacy, consent, emotional manipulation",
+      "Bias in emotion recognition systems",
+    ],
+    importantTerms: {
+      "Affective Tutoring": "Educational systems that adapt content and feedback based on the learner's detected emotional state.",
+      "Emotion Surveillance": "Using emotion recognition for monitoring people without consent, raising significant privacy concerns.",
+      "Algorithmic Bias": "Systematic errors in emotion recognition due to training data imbalances across demographics.",
+      "Informed Consent": "Users must be aware of and agree to emotion data collection and its intended use.",
+      "Emotion Regulation": "Systems designed to help users manage their emotional states, e.g., guided breathing, music recommendation.",
+      "Digital Wellbeing": "Using affective computing to promote healthy technology use and mental wellness.",
+    },
+    commonConfusions: [
+      "Emotion recognition ≠ mind reading — systems detect surface signals, not true internal states.",
+      "High accuracy on benchmarks doesn't mean the system works fairly across all demographics.",
+      "Affective computing in education can help or harm depending on implementation and consent practices.",
+    ],
+    linkedQuestionIds: ["w8q1", "w8q2", "w8q3", "w8q4", "w8q5", "w8q6", "w8q7", "w8q8", "w8q9", "w8q10"],
+  },
+];
